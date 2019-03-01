@@ -1,4 +1,11 @@
 /* GENERAL STYLING */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  overflow-x: hidden; /* prevent scrolling in x direction */
+
+}
 
 body {
   margin:auto;
@@ -30,7 +37,6 @@ scale: 100%;
 }
 @media screen and (min-width: 400px) {
 h1 {
-  padding-top: 90px;
     font-size: 46px;
   }
 }
@@ -161,14 +167,6 @@ padding:5px;
 .sidemenu li a.active {
   background-color: indianred;
   color: white;
-}
-
-/*HEADER WITHIN SIDE MENU CONTENT*/
-.header {
-  background-color: lightcyan;
-  color: white;
-  text-align: center;
-  padding: 15px;
 }
 
 .footer {
