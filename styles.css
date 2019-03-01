@@ -168,7 +168,8 @@ padding:5px;
   color: white;
 }
 
+/* SHOWCASE SECTION */
 iframe {
   scroll-behavior: none;
   overflow: hidden;
-  }
+}
