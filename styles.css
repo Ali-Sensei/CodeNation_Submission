@@ -10,17 +10,31 @@ body {
   text-align:center;
   font-size: 100%;
   }
-img, h1, h2, h3, p {
+img, h2, h3, p {
   margin-left:20%;
   margin-right:20%;  
 }
+@media screen and (max-width: 500px) {
+  img, h2, h3, p {
+    margin-left:5%;
+    margin-right:5%;  
+    }
+}
+
 
 h1 {
 color:black;
 font-weight: 300;
-font-size:400%;
+font-size:10vw;
 scale: 100%;
 }
+@media screen and (min-width: 400px) {
+h1 {
+  padding-top: 90px;
+    font-size: 46px;
+  }
+}
+
 h2 {
   background-color:yellow;
 }
@@ -94,8 +108,6 @@ padding:5px;
   background-color: indianred;
 }
 
-/*NavBar Media Queries/*
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 500px) {
   .topmenu li {
     font-size: 75%;
