@@ -1,3 +1,4 @@
+/*
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -44,3 +45,4 @@ window.addEventListener("keydown", function(e) {
   }
 }, false);
 
+*/

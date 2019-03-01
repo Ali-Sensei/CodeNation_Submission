@@ -8,11 +8,13 @@ body {
   align-items: center;
   font-family: Helvetica neue, roboto;
   text-align:center;
-}
+  font-size: 100%;
+  }
 img, h1, h2, h3, p {
   margin-left:20%;
   margin-right:20%;  
 }
+
 h1 {
 color:black;
 font-weight: 300;

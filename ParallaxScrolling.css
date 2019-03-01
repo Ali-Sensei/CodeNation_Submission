@@ -10,7 +10,7 @@ body {
 	transform-style: preserve-3d;
   height: 100%;
   overflow-x: hidden; /* prevent scrolling in x direction */
-  overflow-x: auto; /* allow scrolling in y direction */
+  overflow-y: auto; /* allow scrolling in y direction */
 }
 
 /*Title of Slides*/
@@ -50,6 +50,13 @@ img {
 
 img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-124%) translateY(-60%) rotate(-5deg);
+}
+
+/*removes thumbnail images when screen width is too small*/
+@media only screen and (max-width: 1000px) {
+  img {
+    display: none;
+  }
 }
 
 .slide:before {
