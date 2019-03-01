@@ -143,7 +143,6 @@ padding:5px;
   position: relative;
 }
 
-
 .sidemenu ul {
   list-style-type: none;
   margin: 0;
@@ -167,12 +166,6 @@ padding:5px;
 .sidemenu li a.active {
   background-color: indianred;
   color: white;
-}
-
-.footer {
-  background-color: #444;
-  color: white;
-  padding: 15px;
 }
 
 iframe {
