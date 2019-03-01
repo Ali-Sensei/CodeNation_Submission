@@ -38,10 +38,10 @@ p {
 img {
   position: absolute;
   top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  left: 15%;
+  width: 288px;
+  height: 512px;
+  transform: translateZ(.25px) scale(.75) translateX(-4%) translateY(-100%) rotate(2deg);
   padding: 10px;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
@@ -49,7 +49,7 @@ img {
 }
 
 img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+  transform: translateZ(.4px) scale(.6) translateX(-124%) translateY(-60%) rotate(-5deg);
 }
 
 .slide:before {
@@ -103,7 +103,7 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("https://external-preview.redd.it/vFjMHFaysl0ib-HahEsYb2FtRKzTgry4gFiasC1g9nA.png?width=960&crop=smart&auto=webp&s=d8c3b3f172a661a070249a139013a05a68158145");
+  background-image: url("ConstructProjects/FlappyBirdClone/Splash_FlappyBird_Alt.png");
   transform: translateZ(-1px) scale(2);
 }
 
@@ -117,6 +117,10 @@ img:last-of-type {
   transform: translateZ(-1px) scale(2);
 }
 
-#slide4 {
-  background: #222;
+#slide_last {
+  background-image: url("images/Showcase_EndSplash.jpg");
+}
+
+#slide_last h1 {
+  color: white;
 }
