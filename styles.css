@@ -18,7 +18,8 @@ img, h1, h2, h3, p {
 h1 {
 color:black;
 font-weight: 300;
-font-size:60px
+font-size:400%;
+scale: 100%;
 }
 h2 {
   background-color:yellow;
@@ -26,7 +27,8 @@ h2 {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+/*  font: 20px "Lato", sans-serif;*/
+  font: 140% "Lato", sans-serif;
   color: #111;
 }
 
@@ -92,6 +94,14 @@ padding:5px;
   background-color: indianred;
 }
 
+/*NavBar Media Queries/*
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 500px) {
+  .topmenu li {
+    font-size: 75%;
+  }
+}
+
 /*SIDE MENU WITH CONTENT*/
 
 .clearfix::after {
@@ -111,8 +121,8 @@ padding:5px;
 .column { /*Side Menu Location*/
   float: right;
   margin-top: 5%;
-/*  padding: 15px;*/
-/*  position: relative;*/
+  padding: 15px;
+  position: relative;
 }
 
 

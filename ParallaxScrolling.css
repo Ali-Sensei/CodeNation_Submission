@@ -114,16 +114,6 @@ img:last-of-type {
   transform: translateZ(-1px) scale(2);
 }
 
-#slide2 {
-  background-image: url("https://unity3d.com/profiles/unity3d/themes/unity/images/assets/og/front.jpg");
-  z-index:2;
-}
-
-#slide3:before {
-  background-image: url("https://psmag.com/.image/t_share/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg");
-  transform: translateZ(-1px) scale(2);
-}
-
 #slide_last {
   background-image: url("images/Showcase_EndSplash.jpg");
 }
