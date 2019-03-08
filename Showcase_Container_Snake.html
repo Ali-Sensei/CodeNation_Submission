@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <script type="text/JavaScript" src="scripts/script.js"></script>
+    <script type="text/JavaScript" src="scripts/iframeSlideshow.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="iframe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Technology.html">Technology</a></li>
+            <li><a href="Blog_Home.html">Blog</a></li>
+            <li><a href="Showcase.html" class="active">Showcase</a></li>
+            <li><a href="Review.html">Review</a></li>
+        </ul>
+    </nav>
+    <div style="margin-left:0%;padding:10px 16px;height:1000px;overflow:hidden">
+        <h1>Flappy Bird Clone</h1>
+        <p>Based off the viral game 'Flappy Bird' by Dong Nguyen of dotGears, this game was created using the Construct
+            game engine following a Udemy tutorial. While the sprites and sounds were shared by the Udemy tutor, I
+            followed the tutorials to create the logic of the game.</p>
+        <p>This game was intended for mobile devices. To play, simply use the mouse to tap the screen!</p>
+        <iframe src="ConstructProjects/Snake/index.html" name="Snake" width=480 height=854
+            frameborder="0" scrolling="no">
+            <p>Your browser does not support iframes.</p> >
+        </iframe>
+        <br>
+        <button class="button" onclick="goBack()">Go Back</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+
+</html>
